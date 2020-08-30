@@ -6,19 +6,15 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
-public class PrimaryController {
+public class PrimaryController  {
     @FXML
     TextField userName,pass;
-    @FXML
-    ListView list;
-    public void initialize (URL url, ResourceBundle rb)
-    {
-        list.getItems().add("Hello");
-    }
+
     @FXML
     private void switchToSecondary() throws IOException {
         while(!userName.getText().isEmpty() && !pass.getText().isEmpty())

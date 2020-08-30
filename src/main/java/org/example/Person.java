@@ -59,8 +59,15 @@ public class Person {
         this.dob = date;
     }
 
+
+
     @Override
     public String toString() {
-              return Fname + " " + LName + " " + age + " " + id + " " + dob;
+        return
+                "First name: " + Fname + " | " +
+                " Last Name: " + LName + " | " +
+                " Age: " + age +  " | " +
+                " ID: " + id + " | " +
+                " DOB: " + dob;
     }
 }

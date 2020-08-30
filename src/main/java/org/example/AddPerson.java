@@ -25,7 +25,7 @@ public class AddPerson {
             person = new Person(newF,newL,newAge,newId,newDOB);
 
         }
-        switchToPrimary();
+        
 
     }
     @FXML
